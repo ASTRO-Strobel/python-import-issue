@@ -19,5 +19,5 @@ mkdir app2app
 echo "... and execute the same python code:"
 echo "app2app is a NamespaceLoader object now:"
 python3 -c "import app2app; print(app2app)"
-echo "... containing a module:"
+echo "... which does not contain the constant app2app at all (!)"
 python3 -c "from app2app import app2app; print(app2app)"
