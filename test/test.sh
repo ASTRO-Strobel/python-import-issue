@@ -18,3 +18,5 @@ mkdir app2app
 echo "... and execute the same python code:"
 echo "app2app is a NamespaceLoader object now and does not provide CONSTANT_ONE anymore:"
 python3 -c "$PYTHON_CODE"
+
+rm -rf app2app
