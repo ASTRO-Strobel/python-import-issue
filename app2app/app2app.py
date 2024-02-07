@@ -1,1 +1,1 @@
-app2app = 1
+CONSTANT_ONE = 1
